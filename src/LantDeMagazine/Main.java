@@ -113,7 +113,7 @@ public class Main {
                                   next = key.nextLine();
                                   int barCod = Integer.valueOf(next);
                                   Product gasit = magazinSelectat.findProduct(barCod);
-                                  magazinSelectat.
+                                  magazinSelectat.removeProdus();
                                   continue;
 
                               }
